@@ -1,0 +1,24 @@
+{
+  "name": "web",
+  "version": "1.0.0",
+  "description": "Iran modulos para npm",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run lite",
+    "test": "run",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CristopherGS/Web.git"
+  },
+  "author": "Fernando, Cris",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CristopherGS/Web/issues"
+  },
+  "homepage": "https://github.com/CristopherGS/Web#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
