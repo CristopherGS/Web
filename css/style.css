@@ -2,26 +2,29 @@
 body {margin: 0;}
 ul {
     list-style-type: none;
-    margin: 0;
+    margin: auto;
     padding: 0;
     overflow: hidden;
-    background-color: black;
+    background-color: white;
+    position: fixed;
     top: 0;
     left: 0;
-    
+    width: 100%;
+    box-shadow: 2px 8px 16px 0px rgba(0,0,0,0.5);
   }
   
-  li {
+  ul li {
     float: left;
   }
   
   li a, .botondropdown {
     display: inline-block;
-    color: white;
+    color:#0B5B67;
     text-align: center;
-    padding: 14px 16px;
+    padding: 18px 16px;
     text-decoration: none;
     font-family: verdana;
+    text-align: center;
   }
   li a:hover, .dropdown:hover .botondropdown {
     background-color: gray;
@@ -30,16 +33,16 @@ ul {
     display: inline-block;
   }
 
- .dropdown-contenido {
+.dropdown-contenido {
     display: none;
-    position: absolute;
-    background-color: #f9f9f9;
+    position: fixed;
+    background-color: #0B5B67;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   }
   
   .dropdown-contenido a {
-    color: black;
+    color: white;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
@@ -54,8 +57,24 @@ ul {
     display: block;
   }
 
-
   @media screen and (max-width: 600px) {
     ul.topnav li.right, 
     ul.topnav li {float: none;}
   }
+
+  .logo {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    background-color: black;
+  }
+
+
+main .presentacion{
+  background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+}
+
+.presentacion img{
+  margin: 30px;
+}
+  
