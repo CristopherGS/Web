@@ -1,0 +1,18 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+#contenedor{
+    text-align: center;
+    position: relative;
+}
+.col{
+    display: inline-flex;
+    max-width: 300px;
+    
+}
