@@ -1,0 +1,54 @@
+omhtml{
+    height:100%;
+}
+body{
+    padding:0;
+    margin:0;
+}
+.navbar_pag{
+    width:100%;
+    background:#D8EFF8;
+    height: 40px;
+    text-align: center;
+    overflow: hidden;
+
+    opacity: 1;
+    transform: translate(0, 0);
+}
+.navbar_pag a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px;
+    color: #2989A6;
+    font-family: Arial;
+}
+.navbar_aZ{
+    width:15%;
+    background:#D8EFF8;
+    height: auto;
+    text-align: center;
+    overflow: auto;
+}
+
+/* efectos css */
+/* .fadeTop {
+    opacity: 0; 
+    transform: translate(0, 10vh);
+    transition: all 1s;
+  }
+  
+  .fadeRight {
+    opacity: 0;
+    transform: translate(10vh, 0vh);
+    transition: all 1s;
+  }
+  
+  .fadeLeft {
+    opacity: 0;
+    transform: translate(-10vh, 0vh);
+    transition: all 1s;
+  }
+  .visible {
+    opacity: 1;
+    transform: translate(0, 0);
+  } */

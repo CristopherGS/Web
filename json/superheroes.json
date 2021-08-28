@@ -48,6 +48,30 @@
         "Teleportation",
         "Interdimensional travel"
       ]
+    },
+    {
+      "name" : "DUGI",
+      "age" : 60,
+      "secretIdentity" : "CIENTIFICO",
+      "powers" : [
+        "Immortality",
+        "Heat Immunity",
+        "Inferno",
+        "Teleportation",
+        "Interdimensional travel"
+      ]
+    },
+    {
+      "name" : "yossu",
+      "age" : 60,
+      "secretIdentity" : "CIENTIFICO",
+      "powers" : [
+        "Immortality",
+        "Heat Immunity",
+        "Inferno",
+        "Teleportation",
+        "Interdimensional travel"
+      ]
     }
   ]
 }

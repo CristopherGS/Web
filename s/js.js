@@ -4,7 +4,7 @@ const $plantilla = document.getElementById('template').content,
     $contene = document.getElementById('container-fluid')
 
 async function API() {
-    const jason = await fetch('https://rickandmortyapi.com/api/character/?page=25')
+    const jason = await fetch('https://rickandmortyapi.com/api/character/?page=10')
     const res = await jason.json()
     const resultados = await res.results
 
